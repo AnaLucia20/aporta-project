@@ -1,5 +1,6 @@
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+     /*padding-top: 70px; Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    box-sizing: border-box;
 }
 
 .portfolio-item {
@@ -10,6 +11,59 @@ footer {
     margin: 50px 0;
 }
 
+.row{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
 .pd-none{
 	padding: 0px !important;
+}
+
+.bold{
+	font-family: Roboto-Bold;
+}
+
+nav.navbar.navbar-inverse.navbar {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+a.navbar-brand {
+    float: none;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.top-logo{
+    text-align: center;
+    margin: auto;
+}
+ul.nav.navbar-nav {
+    float: none;
+    margin: auto;
+    text-align: center;
+}
+.navbar-nav>li {
+    float: none;
+    display: inline-block;
+}
+.wrapper-img{
+	min-height: 300px;
+	height: 500px;
+	margin-bottom: 50px;
+}
+.img-costura{
+	background-image: url(../img/costura.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+.content-txt {
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    line-height: 1.9;
+    letter-spacing: 0.5px;
 }
