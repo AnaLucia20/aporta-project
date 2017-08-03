@@ -36,6 +36,18 @@ nav a{
 .caption{
   background-color: #F5f5f5;
 }
+.aesa1{
+  background-image: url(../img/aesa1.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+.aesa2{
+  background-image: url(../img/aesa2.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
 .bg-img-1{
   background-image: url(../img/costura.jpg);
   background-size: cover;
