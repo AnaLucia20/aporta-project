@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 .flex-colum{
   display: flex;
@@ -11,6 +12,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.flex-end{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
 }
 nav{
   border-top: 1px solid black;
@@ -23,6 +30,6 @@ nav a{
   display: inline-block;
 }
 #eventos img, #miaesa img {
- width: 750px;;
- height: auto;
+ width: 850px;
+ height: 500px;
 }
