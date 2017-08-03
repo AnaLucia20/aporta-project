@@ -82,7 +82,9 @@ ul.nav.navbar-nav {
     margin: auto;
     padding: 15px;
     line-height: 1.9;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
+    font-size: 17px;
+    text-align: justify;
 }
 .box-facebook{
 	font-family: Roboto-Regular;
