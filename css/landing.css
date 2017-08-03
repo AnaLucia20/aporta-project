@@ -50,6 +50,7 @@ ul.nav.navbar-nav {
 .navbar-nav>li {
     float: none;
     display: inline-block;
+    margin: 0px 5px;
 }
 .navbar-nav>li a{
 	font-family: Roboto-Bold;
