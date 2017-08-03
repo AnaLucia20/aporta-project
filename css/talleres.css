@@ -5,6 +5,13 @@
   justify-content: center;
   align-items: center;
 }
+.flex-colum{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 nav{
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -14,4 +21,8 @@ nav a{
 }
 .caption h3{
   display: inline-block;
+}
+#eventos img, #miaesa img {
+ width: 750px;;
+ height: auto;
 }
