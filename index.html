@@ -19,17 +19,18 @@
     <link href="fonts/fonts.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
 
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <a class="navbar-brand" href="index.html">
         <img class="top-logo text-center" src="img/logo.png">
     </a>
@@ -56,16 +57,19 @@
                 </div>
             </div>
         </div>
-
-        <hr>
-
+        <div class="text-center box-facebook">
+        <h4 class="title-fb">
+            AESA en facebook
+        </h4>
+            <iframe  class="fb-plugin" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAESAsanrafael%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
 
         <ul class="nav navbar-nav">
             <li>
-                <a  class="bold" href="#">Eventos</a>
+                <a  class="btn btn-default bold" href="#">Eventos</a>
             </li>
             <li>
-                <a class="bold"  href="#">Mi AESA</a>
+                <a class="btn btn-default bold"  href="#">Mi AESA</a>
             </li>
         </ul>
 
@@ -99,7 +103,6 @@
         </div>-->
         <!-- /.row -->
 
-        <hr>
 
         <!-- Footer -->
         <footer>
@@ -121,6 +124,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/fb.js"></script>
 
 </body>
 
