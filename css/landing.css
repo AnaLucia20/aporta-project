@@ -93,6 +93,13 @@ ul.nav.navbar-nav {
 .img-costura.img-dental{
     background-image: url(../img/denta.1.jpg);
 }
+.img-aesa1{
+  background-image: url(../img/aesa1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+}
 .content-txt {
     margin: auto;
     padding: 15px 0;
