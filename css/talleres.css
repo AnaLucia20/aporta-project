@@ -1,0 +1,17 @@
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+nav a{
+  margin: 5px;
+}
+.caption h3{
+  display: inline-block;
+}
