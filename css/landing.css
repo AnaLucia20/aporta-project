@@ -36,6 +36,9 @@ a.navbar-brand {
     margin: auto;
     width: 100%;
 }
+.navbar-brand{
+    padding: 0px;
+}
 .top-logo{
     text-align: center;
     margin: auto;
@@ -44,8 +47,14 @@ ul.nav.navbar-nav {
     float: none;
     margin: auto;
     text-align: center;
-    background-color: #58595a;
-    padding: 10px 0;
+    background-color: rgba(158, 158, 158, 0.38);
+    padding: 20px 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 143, 181, 0.64);
+    color: white;
 }
 .navbar-nav>li {
     float: none;
@@ -68,7 +77,7 @@ ul.nav.navbar-nav {
 }
 .wrapper-img{
 	min-height: 300px;
-	height: 500px;
+	height: 400px;
 	margin-bottom: 50px;
 }
 .img-costura{
@@ -77,8 +86,10 @@ ul.nav.navbar-nav {
 	background-position: center;
 	height: 100%;
 }
+.img-costura.img-dental{
+    background-image: url(../img/denta.1.jpg);
+}
 .content-txt {
-    width: 50%;
     margin: auto;
     padding: 15px;
     line-height: 1.9;
@@ -100,4 +111,31 @@ ul.nav.navbar-nav {
 	.content-txt{
 		width: 100%;
 	}
+    .wrapper-img {
+        max-height: 250px;
+        height: 300px;
+        margin-bottom: 0px;
+    }
+    .card-center {
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+        width: calc(90.5% - 16px);
+        margin: auto;
+        padding: 25px 5px;
+        position: relative;
+        top: -38px;
+        background-color: white;
+    }
+    .box-facebook{
+        width: auto;
+        padding: 0;
+    }
+    .title-fb {
+        padding-left: 24px;
+    }
+    #eventos {
+        padding: 0 0 50px 0;
+    }
+    .btn.btn-default-back{
+        padding: 6px 20px;
+    }
 }
