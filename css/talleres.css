@@ -19,17 +19,84 @@
   justify-content: flex-end;
 
 }
-nav{
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
 nav a{
   margin: 5px;
 }
 .caption h3{
-  display: inline-block;
+  font-family: Roboto-Regular;
+  margin-top: 0px;
 }
-#eventos img, #miaesa img {
- width: 850px;
- height: 500px;
+#eventos {
+  padding: 50px 0;
+}
+.thumbnail {
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.2), 0 1px 8px 0 rgba(0,0,0,.12);
+  padding: 0px;
+}
+.caption{
+  background-color: #F5f5f5;
+}
+.bg-img-1{
+  background-image: url(../img/costura.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+.bg-img{
+  background-image: url(../img/denta.1.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+.bg-img-3{
+  background-image: url(../img/cortedecabello.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+.bg-img-4{
+  background-image: url(../img/vacunacion.png);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+.bg-img-4{
+  background-image: url(../img/lectura.jpeg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+.bg-img-5{
+  background-image: url(../img/pintar.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+.btn.btn-default-2 {
+  background-color: #008FB5;
+  border: #008FB5;
+  color: white;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  padding: 6px 40px;
+  border-radius: 50px;
+  font-family: Roboto-Light;
+  font-size: 16px;
+}
+.btn.btn-default-back {
+  background-color: #008FB5;
+  border: #008FB5;
+  border-radius: 0;
+  color: white;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+  padding: 6px 46px;
+  font-family: Roboto-Light;
+  font-size: 16px;
+}
+.fixed {
+  position: fixed;
+  z-index: 1;
+  bottom: 15px;
+  right: 15px;
 }
